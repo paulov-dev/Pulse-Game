@@ -1,5 +1,5 @@
 function logar(){
-    window.location.href = '/public/pages/index.html'
+    window.location.href = '/pages/index.html'
 }
 
 function doc(){
