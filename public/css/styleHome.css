@@ -1,0 +1,67 @@
+body{
+    background-color: #121212;
+}
+
+h1{
+    color: #BB86FC;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+.space{
+    padding: 150px;
+}
+
+.space2{
+    padding: 60px;
+}
+
+.card{
+    background-color: #1d1e22;
+    width: 360px;
+    height: 380px;
+}
+
+.card-2{
+    background-color: #1d1e22;
+    width: 360px;
+    height: 145px;
+    border-radius: 5px;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+.color-red{
+    color: #B22222;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+
+.color-blue{
+    color: #0000CD;
+}
+
+.color-green{
+    color: #3CB371;
+}
+
+.color-purple{
+    color: #BB86FC;
+}
+
+.logo{
+    opacity: 50%;
+}
+
+.logo:hover{
+    transition: 0.8s;
+    opacity: 100%;
+}
+
+

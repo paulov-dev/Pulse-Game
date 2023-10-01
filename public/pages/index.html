@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gartic | Redes</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="section">
+            <img src="../src/image/logo2.png" alt="Logo">
+        </div>
+
+        <div class="container">
+            <div class="tools">
+                <div class="head_tools">
+                    <div class="main">
+                        <h3>FERRAMENTAS</h3>
+                    </div>
+                </div>
+                <div class="main_tools">
+                    <div class="main">
+
+                        <button id="enviar" onclick="Apagar()">APAGAR</button>
+
+                        <!-- #TODO: REALIZAR IMPLEMENTAÇÃO DE FERRAMENTA DE CORES E ESPESSURA DE LINHAS
+                                    DEFINIR SOMENTE UM USUÁRIO POR VEZ, TER ACESSO A ÁREA DE FERRAMENTAS
+                                    SOMENTE UM USUÁRIO POR VEZ, DEVERÁ SER CAPAZ DE DESENHAR
+                                    
+                        <h5 id="h5">Cores</h5>
+                        <div class="main_colors">
+                            <div class="colors" style="background-color: red;" id="red"></div>
+                            <div class="colors" style="background-color: blue;" id="blue"></div>
+                            <div class="colors" style="background-color: purple;" id="purple"></div>
+                            <div class="colors" style="background-color: black;" id="black"></div>
+                            <div class="colors" style="background-color: green;" id="green"></div>
+                            <div class="colors" style="background-color: yellow;" id="yellow"></div>
+                            <div class="colors" style="background-color: orange;" id="orange"></div>
+                            <div class="colors" style="background-color: greenyellow;" id="greenyellow"></div>
+                        </div>
+                        -->
+
+                    </div>
+
+                </div>
+                <div class="footer_tools">
+                    <div class="main">
+                        <h5>linhas</h5>
+                    </div>
+                </div>
+            </div>
+
+            <canvas id="window"></canvas>
+            <div id="chatBox">
+                <div id="msg">
+                    <ul id="messages"></ul>
+                </div>
+                <input id="inputText" type="text">
+                <!--<button id="enviar" onclick="enviar()">Enviar</button>-->
+
+            </div>
+
+            <div id="players">
+                <div class="connection">
+                    <p id="subTitulo">Players Conectados</p>
+                </div>
+                <div class="players">
+                    <ul id="playerList"></ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

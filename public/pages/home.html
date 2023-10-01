@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket | Redes</title>
+    <link rel="shortcut icon" href="../src/image/ico.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styleHome.css">
+    <script src="../js/scriptHome.js"></script>
+</head>
+<body>
+
+    <div class="navs header-not-on-top svelte-18bdc00 container">
+        <div class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img width="170" src="../src/image/logo2.png" alt="discloud_logo">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse show">
+                <ul class="ms-auto navbar-nav">
+                    <li class="nav-item"><button class="nav-link">Início</button></li>
+                    <li class="nav-item"><button class="nav-link">Documentação</button></li>
+                    <li class="nav-item"><button class="nav-link" onclick="logar()">Jogar</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="space"></section>
+
+    <section>
+        <div class="container">
+            <div class="text-center lh-1">
+                <h1 class="display-4 fw-bold">Pulse | Trabalho de Redes</h1>
+            <p class="fs-4 opacity-75 animation">Construindo conexões sólidas com sockets confiáveis</p>
+            </div>            
+        </div>        
+    </section>
+
+    <section class="space2"></section>
+
+    <section>
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col logo"><a href="https://nodejs.org/pt-br"><img src="../src/image/icon_node.png" alt="NodeJse" style="width: 30%"></a></div>
+                <div class="col logo"><a href="https://socket.io"><img src="../src/image/socket_logo.png" alt="Socket.io" style="width: 30%"></a></div>
+                <div class="col logo"><a href="https://expressjs.com/pt-br/"><img src="../src/image/express_icon.png" alt="Express" style="width: 30%"></a></div>
+                
+            </div>            
+        </div>
+    </section>
+    
+    <section class="space2"></section>
+    
+    <section>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col">
+                    <span class="color-purple">$ Implementação</span>
+                    <h1 class="display-5 fw-bold color-white">Socket.io</h1>
+                    <p>Comunicação em tempo real: O socket.io permite que os clientes e servidores troquem dados em tempo real, como mensagens instantâneas, notificações em tempo real, atualizações de jogos e muito mais. Isso é fundamental para aplicativos que precisam de interações em tempo real.</p>
+                    <p>Suporte a eventos bidirecionais: O socket.io permite a criação de canais bidirecionais para a troca de dados, onde tanto o servidor quanto o cliente podem enviar e receber eventos. Isso facilita a construção de aplicativos interativos.</p>
+                    <p>Fácil integração: O socket.io pode ser facilmente integrado a aplicativos Express existentes. Você pode adicionar funcionalidades de comunicação em tempo real sem grandes modificações em seu código.</p>
+                </div>                
+                <div class="col">
+                    <div class="card">
+                        <div class="card-top">
+                            <div class="card-top-info">
+                                <header class="container-fluid">
+                                    <img src="../src/image/engrenagem.svg">
+                                    <span>JS</span>                                   
+                                </header>                                                                
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-content-info container-fluid">
+                                <span class="color-blue">const</span><span class="color-white"> express = </span><span class="color-red">require</span><span class="color-white">(</span><span class="color-red">'express'</span><span class="color-white">);</span>><br>
+                                <span class="color-blue">const</span><span class="color-white"> app = </span><span class="color-red">express</span><span class="color-white">( );</span><br>
+                                <span class="color-blue">const</span><span class="color-white"> http = </span><span class="color-red">require</span><span class="color-white">(</span><span class="color-red">'http'</span><span class="color-white">);</span><br>
+                                <span class="color-blue">const</span><span class="color-white"> server = http.</span><span class="color-red">createServer</span><span class="color-white">(app);</span><br>
+                                <span class="color-blue">const</span><span class="color-white"> { Server } = </span><span class="color-red">require</span><span class="color-white">(</span><span class="color-red">"socket.io"</span><span class="color-white">);</span><br>
+                                <span class="color-blue">const</span><span class="color-white"> io = </span><span class="color-blue">new </span><span class="color-white">Server(server);</span><br>
+                                <br>
+                                <span class="color-white">app.</span><span class="color-red">get</span><span class="color-white">(</span><span class="color-red">'/'</span><span class="color-white">, (req, res) => {</span><br>
+                                <span class="color-white">ㅤres.</span><span class="color-red">sendFile</span><span class="color-white">(__dirname + </span><span class="color-red">'/index.html'</span><span class="color-white">);</span><br>
+                                <span class="color-white">});</span><br>
+                                <br>
+                                <span class="color-white">server.</span><span class="color-red">.listen</span><span class="color-white">(</span><span class="color-green">3000</span><span class="color-white">, ( ) => {</span><br>
+                                <span class="color-white">ㅤconsole.</span><span class="color-red">log</span><span class="color-white">(</span><span class="color-red">'listening on *:3000'</span><span class="color-white">);</span><br>
+                                <span class="color-white">});</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-2">
+                        <div class="card-top">
+                            <div class="card-top-info">
+                                <header class="container-fluid">
+                                    <img src="../src/image/engrenagem.svg">
+                                    <span>HTML</span>                                   
+                                </header>                                                                
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-content-info container-fluid">
+                                <span class="color-white"><</span><span class="color-blue">script </span><span class="color-green">src</span><span class="color-white">="</span><span class="color-red">/socket.io/socket.io.js</span><span class="color-white">"<span class="color-white">><</span><span class="color-white">/</span></span><span class="color-blue">script</span><span class="color-white">></span>
+                                <span class="color-white"><</span><span class="color-blue">script</span><span class="color-white">></span><br>
+                                <span class="color-blue">ㅤvar </span><span class="color-white">socket = </span><span class="color-red">io</span><span class="color-white">( );</span><br>
+                                <span class="color-white"><</span><span class="color-white">/</span><span class="color-blue">script</span><span class="color-white">></span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="space2">
+        <div class="container">
+            <p>Pulse © 2023 - Todos os direitos reservados.</p>
+        </div>
+    </section>    
+</body>
+</html>
