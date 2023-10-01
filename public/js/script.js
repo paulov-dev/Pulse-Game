@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         pincel.posAnterior = { x: pincel.pos.x, y: pincel.pos.y }
 
-        setTimeout(ciclo, 10)
+        setTimeout(ciclo, 100)
 
     }
 
