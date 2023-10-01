@@ -1,10 +1,14 @@
 # Pulse - Aplicativo utilizando Socket
 
-Bem-vindo ao projeto Pulse! Este é um aplicativo inovador que combina criatividade, adivinhação e socialização em uma plataforma online envolvente. Este README descreve o processo de desenvolvimento, as tecnologias utilizadas e as principais funcionalidades do Pulse.
+Bem-vindo ao projeto Pulse! 
+Este é uma plataforma web que combina criatividade, adivinhação e socialização. Este projeto tem como objetivo o cumprimento das atividades da disciplina de Redes do curso de Engenharia de Software
+Este README descreve o processo de desenvolvimento, as tecnologias utilizadas e as principais funcionalidades do Pulse.
 
 ## Descrição
 
-O Pulse é uma plataforma online que visa proporcionar uma experiência divertida e interativa para os usuários. O objetivo principal é estimular a criatividade, adivinhação e interação social por meio de uma série de atividades envolventes.
+O Pulse foi desenvolvido como uma forma de integrar a biblioteca Socket.io (objetivo principal deste trabalho), visando proporcionar uma experiência divertida e interativa para os usuários. O objetivo principal é estimular a criatividade, adivinhação e interação social por meio de uma série de atividades envolventes.
+
+‼ ESTE PROJETO AINDA ESTÁ EM FASE DE DESENVOLVIMENTO
 
 ## Tecnologias Utilizadas
 
@@ -39,10 +43,10 @@ O Pulse é uma plataforma online que visa proporcionar uma experiência divertid
 
 3. Inicie o servidor:
 
-```bash
-  node server.js
-```
+   ```bash
+     node server.js
+   ```
 
-4. Contribuições
+## Contribuições
 Contribuições são bem-vindas! Se você deseja melhorar o Pulse ou adicionar novos recursos, sinta-se à vontade para abrir um pull request.
 
