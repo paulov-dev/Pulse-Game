@@ -4,11 +4,11 @@ Bem-vindo ao projeto Pulse!
 Este é uma plataforma web que combina criatividade, adivinhação e socialização. Este projeto tem como objetivo o cumprimento das atividades da disciplina de Redes do curso de Engenharia de Software
 Este README descreve o processo de desenvolvimento, as tecnologias utilizadas e as principais funcionalidades do Pulse.
 
+‼ ESTE PROJETO ESTÁ EM FASE DE DESENVOLVIMENTO
+
 ## Descrição
 
 O Pulse foi desenvolvido como uma forma de integrar a biblioteca Socket.io (objetivo principal deste trabalho), visando proporcionar uma experiência divertida e interativa para os usuários. O objetivo principal é estimular a criatividade, adivinhação e interação social por meio de uma série de atividades envolventes.
-
-‼ ESTE PROJETO AINDA ESTÁ EM FASE DE DESENVOLVIMENTO
 
 ## Tecnologias Utilizadas
 
