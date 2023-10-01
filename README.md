@@ -32,9 +32,10 @@ O Pulse é uma plataforma online que visa proporcionar uma experiência divertid
    ```
 
 2. Instale as dependências do Node.js:
+
    ```bash
    npm install
-  ```
+   ```
 
 3. Inicie o servidor:
 
