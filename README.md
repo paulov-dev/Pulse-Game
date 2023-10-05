@@ -6,6 +6,8 @@ Este README descreve o processo de desenvolvimento, as tecnologias utilizadas e 
 
 ‼ ESTE PROJETO ESTÁ EM FASE DE DESENVOLVIMENTO
 
+Disponível publicamente em: https://pulsegame.com.br
+
 ## Descrição
 
 O Pulse foi desenvolvido como uma forma de integrar a biblioteca Socket.io (objetivo principal deste trabalho), visando proporcionar uma experiência divertida e interativa para os usuários. O objetivo principal é estimular a criatividade, adivinhação e interação social por meio de uma série de atividades envolventes.
